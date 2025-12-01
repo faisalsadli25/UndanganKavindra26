@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-b from-blue-100 to-blue-500 flex items-center justify-center min-h-screen">
+
+    <div class="bg-white shadow-xl rounded-2xl p-8 w-80 text-center">
+        <h1 class="text-xl font-semibold mb-4">Masukkan Nama Anda</h1>
+
+        <input id="namaInput" type="text" placeholder="Nama Tamu..." class="w-full p-3 border rounded-xl focus:outline-none focus:ring-2 focus:ring-yellow-400 transition" oninput="cekNama()">
+
+        <button 
+        id="btnBuka"
+        onclick="bukaUndangan()"
+        class="w-full mt-4 p-3 rounded-xl bg-yellow-500 text-white"
+        >Buka Undangan
+    </button>
+        
+
+    </div>
+
+    <script src="main.js"></script>
+    
+</body>
+</html>
